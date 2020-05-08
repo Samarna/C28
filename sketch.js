@@ -18,7 +18,7 @@ function setup(){
 
     ground = new Ground(600,height,1200,20);
     
-    platform = new Platform(810,100,200,20);
+    platform = new Platform(810,200,200,20);
 
     box1 = new Pig(775,320);
     box2 = new Pig(880,320);
