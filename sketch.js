@@ -20,15 +20,15 @@ function setup(){
     
     platform = new Platform(810,200,200,20);
 
-    box1 = new Pig(775,320);
-    box2 = new Pig(880,320);
-    pig1 = new Pig(810,350);
+    box1 = new Pig(775,20);
+    box2 = new Pig(880,20);
+    pig1 = new Pig(810,50);
 
-    box3 = new Pig(775,240);
-    box4 = new Pig(880,240);
-    pig3 = new Pig(810,220);
+    box3 = new Pig(775,40);
+    box4 = new Pig(880,40);
+    pig3 = new Pig(810,20);
 
-    box5 = new Pig(830,160);
+    box5 = new Pig(830,60);
 
     bird = new Pig(100,100);
 
