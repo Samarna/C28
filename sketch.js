@@ -43,6 +43,8 @@ function draw(){
 
     fill(225,225,225);
     ground.display();
+    
+    platform.display();
 
     fill(225,0,225);
     box1.display();
@@ -51,8 +53,6 @@ function draw(){
     fill(0,128,225);
     pig1.display();
     
-    platform.display();
-
     fill(211,215,79);
     box3.display();
     box4.display();
