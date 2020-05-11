@@ -21,11 +21,10 @@ function setup(){
     platform = new Platform(840,200,400,20);
 
     box1 = new Pig(775,20);
-    box2 = new Pig(880,20);
+    box2 = new Pig(810,0);
     pig1 = new Pig(810,50);
 
     box3 = new Pig(775,40);
-    box4 = new Pig(880,40);
     pig3 = new Pig(810,20);
 
     box5 = new Pig(830,60);
@@ -55,9 +54,6 @@ function draw(){
     
     fill(211,215,79);
     box3.display();
-    
-    fill("white");
-    box4.display();
     
     fill("green");
     pig3.display();
