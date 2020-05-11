@@ -24,10 +24,10 @@ function setup(){
     box2 = new Pig(830,20);
     pig1 = new Pig(810,50);
 
-    box3 = new Pig(775,40);
+    box3 = new Pig(765,40);
     pig3 = new Pig(810,20);
 
-    box5 = new Pig(830,60);
+    box5 = new Pig(820,60);
 
     bird = new Pig(100,100);
 
