@@ -59,7 +59,7 @@ function draw(){
     fill("white");
     box4.display();
     
-    fill("purple");
+    fill("green");
     pig3.display();
 
     fill(181,230,29);
