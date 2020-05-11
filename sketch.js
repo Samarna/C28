@@ -21,7 +21,7 @@ function setup(){
     platform = new Platform(840,200,400,20);
 
     box1 = new Pig(775,20);
-    box2 = new Pig(810,0);
+    box2 = new Pig(830,20);
     pig1 = new Pig(810,50);
 
     box3 = new Pig(775,40);
