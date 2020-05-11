@@ -55,6 +55,8 @@ function draw(){
     
     fill(211,215,79);
     box3.display();
+    
+    fill("white");
     box4.display();
     pig3.display();
 
