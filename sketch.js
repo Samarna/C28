@@ -47,6 +47,8 @@ function draw(){
 
     fill(225,0,225);
     box1.display();
+    
+    fill(227,98,9);
     box2.display();
     
     fill(0,128,225);
