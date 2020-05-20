@@ -23,16 +23,16 @@ function setup(){
     
     platform = new Platform(840,200,400,20);
 
-    box1 = new Pig(775,20);
-    box2 = new Pig(830,20);
-    pig1 = new Pig(810,50);
+    box1 = new Item(775,20);
+    box2 = new Item(830,20);
+    pig1 = new Item(810,50);
 
-    box3 = new Pig(765,40);
-    pig3 = new Pig(810,20);
+    box3 = new Item(765,40);
+    pig3 = new Item(810,20);
 
-    box5 = new Pig(820,60);
+    box5 = new Item(820,60);
 
-    bird = new Pig(100,100);
+    bird = new Item(100,100);
 
     //log6 = new Log(230,180,80, PI/2);
     sling = new Slingshot(bird.body,{x : 200,y : 100});
