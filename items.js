@@ -2,7 +2,7 @@ class Pig extends BaseClass {
   constructor(x, y){
     super(x,y,50,50);
   }
-  display():
+  display(){
   if(this.body.speed < 3){
     super.display();
    }
