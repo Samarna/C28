@@ -8,6 +8,7 @@ var box1, pig1;
 var backgroundImg,platform;
 var bird, slingShot;
 var platform;
+var stick;
 
 var score = 0;
 
@@ -66,6 +67,8 @@ function draw(){
     box5.display();
 
     bird.display();
+    
+    rect(200,150,30,200);
     //log6.display();
     sling.display();    
 }
