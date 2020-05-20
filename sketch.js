@@ -9,6 +9,8 @@ var backgroundImg,platform;
 var bird, slingShot;
 var platform;
 
+var score = 0;
+
 
 function setup(){
     var canvas = createCanvas(1200,400);
