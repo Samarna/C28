@@ -39,7 +39,7 @@ function setup(){
 }
 
 function draw(){
-    background("black");
+    background("purple");
     Engine.update(engine);
     strokeWeight(4);
 
