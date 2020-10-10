@@ -8,9 +8,6 @@ var box1, pig1;
 var backgroundImg,platform;
 var bird, slingShot;
 var platform;
-var stick;
-
-var score = 0;
 
 
 function setup(){
@@ -23,23 +20,24 @@ function setup(){
     
     platform = new Platform(840,200,400,20);
 
-    box1 = new Item(775,20);
-    box2 = new Item(830,20);
-    pig1 = new Item(810,50);
+    box1 = new Pig(785,20);
+    box2 = new Pig(820,0);
+    pig1 = new Pig(810,50);
 
-    box3 = new Item(765,40);
-    pig3 = new Item(810,20);
+    box3 = new Pig(765,40);
+    box4 = new Pig(880,40);
+    pig3 = new Pig(810,20);
 
-    box5 = new Item(820,60);
+    box5 = new Pig(830,60);
 
-    bird = new Item(100,100);
+    bird = new Pig(100,100);
 
     //log6 = new Log(230,180,80, PI/2);
     sling = new Slingshot(bird.body,{x : 200,y : 100});
 }
 
 function draw(){
-    background("purple");
+    background("black");
     Engine.update(engine);
     strokeWeight(4);
 
@@ -50,8 +48,6 @@ function draw(){
 
     fill(225,0,225);
     box1.display();
-    
-    fill(227,98,9);
     box2.display();
     
     fill(0,128,225);
@@ -59,16 +55,13 @@ function draw(){
     
     fill(211,215,79);
     box3.display();
-    
-    fill("green");
+    box4.display();
     pig3.display();
 
     fill(181,230,29);
     box5.display();
 
     bird.display();
-    
-    rect(200,150,30,200);
     //log6.display();
     sling.display();    
 }
